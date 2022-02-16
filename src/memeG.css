@@ -1,0 +1,67 @@
+body { margin: 0; scroll-behavior: smooth;}
+* {margin: 0; padding: 0; font-family: sans-serif;}
+h1 {
+    background: cornsilk;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 60px;
+    color: grey;
+    color: darkmagenta;
+}
+.container {
+    text-align: center;
+    /* border: 1px solid cadetblue; */
+}
+.cover {
+    width: 30%;
+    display: inline-block;
+    border: 1px dotted black;
+    padding: 10px;
+    margin: 10px;
+}
+.cover1 {
+    width: 50%;
+    display: inline-block;
+    border: 1px dotted black;
+    padding: 10px;
+    margin: 10px;
+}
+img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.meme {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+button {
+    background-color: khaki;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid currentColor;
+    font-weight: bolder;
+    color: rgb(5, 53, 83);
+}
+input {
+    padding: 5px;
+    margin: 5px;
+    font-size: larger;
+    border: 1px solid black;
+}
+@media (max-width:700px){
+    button{
+        font-weight: lighter;
+        margin: 10px;
+        padding: 0;
+    }
+}
+@media (max-width:1300px) {
+    .cover{
+        width: 45%;
+    }
+}
