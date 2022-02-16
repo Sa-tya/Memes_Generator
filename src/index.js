@@ -1,17 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './d20_food';
-// import App from './Day_27/app'
-// import App from './Day_28/app'
-// import App from './components/d21_edit';
-// import App from './chess_board';
-// import App from './Context_hook/provider';
-// import reportWebVitals from './reportWebVitals';
-// import App from './Day_23/Home'
-// import App from  './Day_24/router'
-// import App from './LifeCycle/Intro'
-import App from './memesGenerator/MemeGenerator';
+import App from './MemeGenerator';
 
 ReactDOM.render(
   <React.StrictMode>
